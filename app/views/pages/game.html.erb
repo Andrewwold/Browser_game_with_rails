@@ -30,10 +30,26 @@
 
 <div class="try4"></div>
 
-<script>
+
+<%= hexa = AxialHex.new( 10, 10 ) %>
+<%= hexa.surrounding_hexes %>
+<%= hexb = AxialHex.new( 20, 20 ) %>
+<%= hexa.hex_surrounding_hex?(hexb) %>
+<%= hexc = AxialHex.new( 20, 13 ) %>
+<%= hlist = [ hexb, hexc ] %>
+<%= g = AxialGrid.new %>
+<%= g.cset( 5, 8 ) %>
 
 
- 
-</script>
+
+
+
+
+
+
+
+
+
+
 
 
