@@ -1,3 +1,54 @@
-// Place all the styles related to the Pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#wrap{
+  width: 50vw;
+  min-width: 450px;
+  margin: 50px auto;
+}
+.bay{
+  
+}
+#bay1{
+  float: left;
+}
+#bay01{
+  float: right;
+}
+
+.stone{
+  height: 30px;
+  width: 30px;
+  background:rgba(26, 141, 255, .7);
+  float: left;
+  margin: 4px;
+  border-radius: 100%;
+  align-items: flex-start;
+}
+
+.stone2{
+  height: 30px;
+  width: 30px;
+  background:rgba(230, 34, 34, .7);
+  float: left;
+  margin: 4px;
+  border-radius: 100%;
+  align-items: flex-start;
+}
+
+p{
+  clear: both;
+  width: 85%;
+  margin: 20px auto;
+  padding-top: 50px;
+  text-align: justify;
+  color: #2b2b2b;
+  font-family: sans-serif;
+}
+
+#more{
+  clear: both;
+  width: 100%;
+  height: 19vh;
+  background: #5a5a5a;
+  margin-top: 400px;
+  padding: 21px 0;
+}
