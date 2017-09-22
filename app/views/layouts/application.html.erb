@@ -10,10 +10,10 @@
 
   <body>
         <%= link_to "Home", root_path %>
-        <%= link_to "Game", pages_game_path %>
+        <%= link_to "Play a Game", pages_pre_game_path %>
 
         <% if current_user %>
-          <%= link_to "Logout", rdestroy_user_session_path %>
+          <%= link_to "Logout", destroy_user_session_path %>
         <% else %>
           <%= link_to "Sign In", new_user_session_path %>
           <%= link_to "Sign Up", new_user_registration_path %>

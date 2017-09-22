@@ -6,5 +6,13 @@ Rails.application.routes.draw do
 
   get 'pages/test'
 
+  get 'pages/select_game'
+
+  get 'pages/start_new_game'
+
+  get 'pages/pre_game'
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
+
+
