@@ -54,3 +54,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap', '~> 4.0.0.beta'
 gem 'compass', '~> 1.0', '>= 1.0.3'
 gem 'devise', '~> 4.3'
+gem 'redis', '~> 4.0'
